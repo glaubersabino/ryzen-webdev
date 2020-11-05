@@ -1,6 +1,6 @@
 # Ryzen: WEBDEV
 
-<img href="https://ibb.co/qgK80Y0" alt="Ryzen: WEBDEV" style="text-align: center;" />
+<img href="https://i.ibb.co/X51Pyxy/Captura-de-tela-de-2020-11-05-17-09-56.png" alt="Ryzen: WEBDEV" style="text-align: center;" />
 
 <p align="center">
   <a href="#rocket-objective">Objective</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
