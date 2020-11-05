@@ -39,7 +39,7 @@ sudo apt install /home/$USER/Downloads/chrome.deb -y
 
 echo "Instalando Telegram..."
 sleep $TIME
-sudo apt install telegram -y
+sudo apt install telegram-desktop -y
 
 echo "Instalando VS Code..."
 sleep $TIME
