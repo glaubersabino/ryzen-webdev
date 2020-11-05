@@ -1,0 +1,40 @@
+{
+    "workbench.colorTheme": "Brackets Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDelete": false,
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontSize": 18,
+    "editor.minimap.enabled": false,
+    "explorer.compactFolders": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.labelFormat": "short",
+    "breadcrumbs.enabled": true,
+    "editor.rulers": [
+        100,
+        120
+    ],
+    "terminal.integrated.fontSize": 16,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "[javascript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+        }
+    },
+    "[javascriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+        }
+    },
+    "[typescript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+        }
+    },
+    "[typescriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+        }
+    },
+}
