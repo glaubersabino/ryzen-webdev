@@ -59,7 +59,7 @@ code --install-extension naumovs.color-highlight #Color Highlighting
 
 echo "Configurando o VS Code..."
 sleep $TIME
-sudo cp ./settings.json /home/$USER/.config/Code/User/
+cp ./settings.json /home/$USER/.config/Code/User/
 
 echo "Instalando o Git..."
 sleep $TIME
@@ -82,11 +82,11 @@ sudo apt-get install -y nodejs
 
 echo "Instalando o YARN..."
 sleep $TIME
-npm install -g yarn
+sudo npm install -g yarn
 
 echo "Instalando o Create-React-App..."
 sleep $TIME
-npm install -g create-react-app
+sudo npm install -g create-react-app
 
 echo "Instalando as fontes Source Code Pro e Fira Code..."
 sleep $TIME
@@ -95,14 +95,14 @@ wget https://fonts.google.com/download?family=Source%20Code%20Pro -O /home/$USER
 wget https://fonts.google.com/download?family=Fira%20Code -O /home/$USER/Downloads/fira-code.zip
 
 # Extração e instalação da Source Code Pro
-sudo unzip source-code-pro.zip -d /home/$USER/Downloads/fonts/source-code-pro/
+unzip /home/$USER/Downloads/source-code-pro.zip -d /home/$USER/Downloads/fonts/source-code-pro/
 sudo cp /home/$USER/Downloads/fonts/source-code-pro/*.ttf /usr/share/fonts/truetype/
 sudo cp /home/$USER/Downloads/fonts/source-code-pro/*.otf /usr/share/fonts/opentype/
 
 # Extração e instalação da Fira Code
-sudo unzip fira-code.zip -d /home/$USER/Downloads/fonts/fira-code/
-sudo cp /home/$USER/Downloads/fonts/fira-code/*.ttf /usr/share/fonts/truetype/
-sudo cp /home/$USER/Downloads/fonts/fira-code/*.otf /usr/share/fonts/opentype/
+unzip /home/$USER/Downloads/fira-code.zip -d /home/$USER/Downloads/fonts/fira-code/
+sudo cp /home/$USER/Downloads/fonts/fira-code/static/*.ttf /usr/share/fonts/truetype/
+sudo cp /home/$USER/Downloads/fonts/fira-code/static/*.otf /usr/share/fonts/opentype/
 
 echo "Procedimentos concluídos com sucesso!"
 sleep $TIME
