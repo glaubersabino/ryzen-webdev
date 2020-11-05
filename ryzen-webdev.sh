@@ -90,6 +90,11 @@ sudo npm install -g create-react-app
 
 echo "Instalando as fontes Source Code Pro e Fira Code..."
 sleep $TIME
+# Criação dos diretórios
+mkdir /home/$USER/Downloads/fonts/
+mkdir /home/$USER/Downloads/fonts/fira-code/
+mkdir /home/$USER/Downloads/fonts/source-code-pro/
+
 # Download das fontes
 wget https://fonts.google.com/download?family=Source%20Code%20Pro -O /home/$USER/Downloads/source-code-pro.zip
 wget https://fonts.google.com/download?family=Fira%20Code -O /home/$USER/Downloads/fira-code.zip
