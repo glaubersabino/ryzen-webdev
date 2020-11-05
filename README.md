@@ -33,5 +33,5 @@ $ cd ryzen-webdev
 $ sudo chmod +x ryzen-webdev.sh
 
 # Run the script
-$ sudo ./ryzen-webdev.sh
+$ ./ryzen-webdev.sh
 ```
