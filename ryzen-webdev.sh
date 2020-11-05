@@ -35,7 +35,7 @@ sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
 echo "Instalando o Google Chrome..."
 sleep $TIME
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O /home/$USER/Downloads/chrome.deb
-sudo apt install ./home/$USER/Downloads/chrome.deb
+sudo apt install /home/$USER/Downloads/chrome.deb
 
 echo "Instalando Telegram..."
 sleep $TIME
@@ -44,7 +44,7 @@ sudo apt install telegram -y
 echo "Instalando VS Code..."
 sleep $TIME
 wget https://go.microsoft.com/fwlink/?LinkID=760868 -O /home/$USER/Downloads/vscode.deb
-sudo apt install ./home/$USER/Downloads/vscode.deb
+sudo apt install /home/$USER/Downloads/vscode.deb
 
 echo "Instalando VS Code Extensions..."
 sleep $TIME
