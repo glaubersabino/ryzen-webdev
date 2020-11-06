@@ -25,7 +25,8 @@ echo "CHECKLIST
       09 - Instalar Nodejs
       10 - Instalar YARN
       11 - Install Create-React-App
-      12 - Instalação fontes Source Code Pro e Fira Code"
+      12 - Instalação fontes Source Code Pro e Fira Code
+      13 - Remoção do Libre Office"
 echo " "
 
 echo "Atualizando o sistema operacional..."
@@ -108,6 +109,11 @@ sudo cp /home/$USER/Downloads/fonts/source-code-pro/*.otf /usr/share/fonts/opent
 unzip /home/$USER/Downloads/fira-code.zip -d /home/$USER/Downloads/fonts/fira-code/
 sudo cp /home/$USER/Downloads/fonts/fira-code/static/*.ttf /usr/share/fonts/truetype/
 sudo cp /home/$USER/Downloads/fonts/fira-code/static/*.otf /usr/share/fonts/opentype/
+
+echo "Removendo o Libre Office..."
+sleep $TIME
+sudo apt-get purgue libreoffice-* -y
+sudo apt autoremove -y
 
 echo "Procedimentos concluídos com sucesso!"
 sleep $TIME
